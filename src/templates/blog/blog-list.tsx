@@ -5,7 +5,6 @@ import { PostCard } from "./components/post-card";
 import { PostGridCard } from "./components/post-grid-card";
 import { Post } from "contentlayer/generated";
 import { Inbox } from "lucide-react";
-import { use } from "react";
 import { useSearchParams } from "next/navigation";
 
 export type BlogListProps = {
