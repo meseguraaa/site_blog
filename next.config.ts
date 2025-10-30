@@ -12,7 +12,6 @@ const nextConfig = {
   typescript: { 
     ignoreBuildErrors: true 
   },
-  
 } satisfies NextConfig;
 
 export default withContentlayer(nextConfig);
