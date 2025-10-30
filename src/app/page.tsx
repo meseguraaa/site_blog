@@ -1,4 +1,30 @@
 import { LandingPage } from "@/templates/landing-page";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SITE.SET",
+  description: "Venda seus produtos como afiliado em um único lugar",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "SITE.SET",
+    description: "Venda seus produtos como afiliado em um único lugar",
+    url: "https://site-blog-khaki-chi.vercel.app/og-image.jpg",
+    siteName: "SITE.SET",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "https://site-blog-khaki-chi.vercel.app/og-image.jpg",
+        width: 800,
+        height: 600,
+        alt: "SITE.SET",
+      },
+    ],
+  },
+};
 
 export default function HomePage() {
   return <LandingPage />;
